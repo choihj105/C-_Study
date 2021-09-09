@@ -1,3 +1,2 @@
 ﻿  05_Celsius and Fahrenheit.cpp
-C:\Users\호준\Desktop\C++\DailyPractice\05_Celsius and Fahrenheit\05_Celsius and Fahrenheit.cpp(10,29): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   05_Celsius and Fahrenheit.vcxproj -> C:\Users\호준\Desktop\C++\DailyPractice\Debug\05_Celsius and Fahrenheit.exe
