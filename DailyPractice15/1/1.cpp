@@ -1,4 +1,7 @@
 // shallow copy 방지하는 smart pointer 기법들
+
+// 1, Deep Copy
+
 #include <iostream>
 using namespace std;
 
