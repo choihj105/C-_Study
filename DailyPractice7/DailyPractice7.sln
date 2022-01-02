@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_Moreadvancedcalculator", "Project1\Project1.vcxproj", "{7E08AA25-78F5-4140-BF6A-D65AFEBFA7FF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_Moreadvancedcalculator", "1_Moreadvancedcalculator\Project1.vcxproj", "{7E08AA25-78F5-4140-BF6A-D65AFEBFA7FF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_Quadranttwo", "Project2\Project2.vcxproj", "{C3F854E3-3578-4942-B70E-96A97C291CC7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_Quadranttwo", "2_Quadranttwo\Project2.vcxproj", "{C3F854E3-3578-4942-B70E-96A97C291CC7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_Digitsthree", "Project3\Project3.vcxproj", "{0A214A04-95AD-45EF-8501-C38210B62A9B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_Digitsthree", "3_Digitsthree\Project3.vcxproj", "{0A214A04-95AD-45EF-8501-C38210B62A9B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_TowerOfHanoi", "Project4\Project4.vcxproj", "{566C1200-AA6B-4C7D-B767-96A02A412D26}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_TowerOfHanoi", "4_TowerOfHanoi\Project4.vcxproj", "{566C1200-AA6B-4C7D-B767-96A02A412D26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,3 +1,4 @@
+// 1. Free the memory when the time is up!
 #include <iostream>
 #include <Windows.h>
 #include <thread>

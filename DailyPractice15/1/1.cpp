@@ -1,3 +1,4 @@
+// shallow copy 방지하는 smart pointer 기법들
 #include <iostream>
 using namespace std;
 

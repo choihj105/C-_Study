@@ -1,3 +1,4 @@
+// 1. New linked list[Normal]
 #include <iostream>
 using namespace std;
 

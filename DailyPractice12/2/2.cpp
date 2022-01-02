@@ -1,4 +1,4 @@
-
+// struct·Î ¸¸µç Linked list
 #include <iostream>
 using namespace std;
 
