@@ -1,3 +1,4 @@
+// myPrint.h
 // 헤더 중복정의를 피하기 위한 매크로
 #ifndef NSPACE_H
 #define NSPACE_H
@@ -32,6 +33,34 @@ namespace std
 }
 
 #endif // !NSPACE_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
