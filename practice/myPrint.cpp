@@ -1,6 +1,9 @@
 #include "myPrint.h"
 
 // 구현부
+
+// namespace std를 생략 하고 싶다면 using namespace std; 선언해주면 됨
+
 //std::myprint::myprint() :len(0) {}
 void std::myprint::print(const char* str) { len += printf("%s ", str); }
 void std::myprint::print(int i) { len += printf("%d ", i); }
@@ -28,3 +31,5 @@ std::myprint& endl(std::myprint& m)
 	printf("\n");
 	return m;
 }
+
+std::myprint cout;
