@@ -1,4 +1,4 @@
-// 3. 복사 금지
+// 3.소유권 이전
 #include <iostream>
 using namespace std;
 

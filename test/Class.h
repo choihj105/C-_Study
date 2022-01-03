@@ -1,3 +1,4 @@
+#pragma once
 // 헤더 중복정의를 피하기 위한 매크로
 #ifndef NSPACE_H
 #define NSPACE_H
@@ -5,31 +6,28 @@
 #include <stdio.h>
 
 // 선언부
-namespace std
+
+class ostream
 {
-	class ostream
-	{
-	private:
-		int len;
+private:
+	int len;
 
-	public:
-		ostream();
+public:
+	ostream();
 
-		void print(const char* str);
-		void print(int i);
-		void print(double d);
+	void print(const char* str);
+	void print(int i);
+	void print(double d);
 
-		ostream& operator<<(const char* str);
-		ostream& operator<<(int i);
-		ostream& operator<<(double d);
-		ostream& operator<<(ostream& (*f)(ostream&));
+	ostream& operator<<(const char* str);
+	ostream& operator<<(int i);
+	ostream& operator<<(double d);
+	ostream& operator<<(ostream& (*f)(ostream&));
 
-	};
+};
 
-	ostream& endl(ostream& m);
-	extern ostream cout; // 전역 변수, 클래스 선언 
-
-}
+ostream& endl(ostream& m);
+extern ostream cout; // 전역 변수, 클래스 선언 
 
 #endif // !NSPACE_H
 
