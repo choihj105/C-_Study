@@ -24,6 +24,7 @@
     <ProjectGuid>{faefa08d-1318-44bb-931d-212d89ff938f}</ProjectGuid>
     <RootNamespace>practice</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>splitting_myPrint</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="myPrint.cpp" />
     <ClCompile Include="메인.cpp" />
   </ItemGroup>
   <ItemGroup>
