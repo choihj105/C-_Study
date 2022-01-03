@@ -7,28 +7,48 @@
 // 선언부
 namespace std
 {
-	class myprint
+	class ostream
 	{
 	private:
 		int len;
 
 	public:
-		myprint() : len(0) {}
+		ostream() : len(0) {}
 
 		void print(const char* str);
 		void print(int i);
 		void print(double d);
 
-		myprint& operator<<(const char* str);
-		myprint& operator<<(int i);
-		myprint& operator<<(double d);
-		myprint& operator<<(myprint& (*f)(myprint&));
+		ostream& operator<<(const char* str);
+		ostream& operator<<(int i);
+		ostream& operator<<(double d);
+		ostream& operator<<(ostream& (*f)(ostream&));
 
 	};
 
-	myprint& endl(myprint& m);
-	extern myprint cout; // 전역 변수, 클래스 선언 
+	extern ostream& endl(ostream& m);
+	extern ostream cout; // 전역 변수, 클래스 선언 
 
 }
 
 #endif // !NSPACE_H
+
+
+/*
+실제 <iostream> 라이브러리
+#include <ios>
+#include <streambuf>
+#include <istream>
+#include <ostream>
+
+namespace std {
+  extern istream cin;
+  extern ostream cout;
+  extern ostream cerr;
+  extern ostream clog;
+  extern wistream wcin;
+  extern wostream wcout;
+  extern wostream wcerr;
+  extern wostream wclog;
+}
+*/
