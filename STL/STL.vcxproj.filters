@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="STL_vector.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="STL_Strchr.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -28,6 +25,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="STL_MyVector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Solution1\2\dailyPractice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Solution1\1\vector_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Solution1\1\map_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Solution1\1\map_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

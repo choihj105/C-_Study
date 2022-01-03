@@ -28,11 +28,12 @@ namespace std
 	};
 
 	ostream& endl(ostream& m);
-	extern ostream cout; // 전역 변수, 클래스 선언 
 
 }
 
 #endif // !NSPACE_H
+
+extern std::ostream cout; // 전역 변수, 클래스 선언 
 
 
 

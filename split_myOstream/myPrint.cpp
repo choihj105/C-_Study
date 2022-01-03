@@ -33,3 +33,5 @@ std::ostream& std::endl(ostream& m)
 	printf("\n");
 	return m;
 }
+
+std::ostream cout;

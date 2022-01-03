@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP", "OOP.vcxproj", "{17E12796-EEBD-42DE-84F2-22CD82FA6EF7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "splitting_myPrint", "..\practice\practice.vcxproj", "{FAEFA08D-1318-44BB-931D-212D89FF938F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "splitting_myPrint", "..\Split_myOstream\practice.vcxproj", "{FAEFA08D-1318-44BB-931D-212D89FF938F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

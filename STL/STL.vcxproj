@@ -139,11 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Solution1\1\map_1.cpp" />
+    <ClCompile Include="..\Solution1\1\map_2.cpp" />
+    <ClCompile Include="..\Solution1\1\vector_1.cpp" />
+    <ClCompile Include="..\Solution1\2\dailyPractice.cpp" />
     <ClCompile Include="STL_MyList_Proxy.cpp" />
     <ClCompile Include="STL_MySort.cpp" />
     <ClCompile Include="STL_MyVector.cpp" />
     <ClCompile Include="STL_Strchr.cpp" />
-    <ClCompile Include="STL_vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
