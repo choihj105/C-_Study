@@ -2,6 +2,7 @@
 #include <cstdlib>
 using namespace std;
 
+
 int RangeRandom(int range_min, int range_max) {
 
 	int u = (double)rand() / (RAND_MAX + 1) * (range_max - range_min) + range_min;
@@ -24,33 +25,33 @@ void quickSort(int nums[], int beginIdx, int lastIdx) {
 	int rightIdx = lastIdx - 1;
 	
 	while (leftIdx <= rightIdx) {
-		if (nums[leftIdx] < nums[pivot]) {
+		if (nums[leftIdx] < nums[lastIdx]) {
 			leftIdx++;
 			continue;
 		}
-		if (nums[rightIdx] > nums[pivot]) {
-			rightIdx++;
+		if (nums[rightIdx] > nums[lastIdx]) {
+			rightIdx--;
 			continue;
 		}
 
 		// swap, 자리 바꿔주기
-		if (nums[pivot] < nums[leftIdx] && nums[pivot] >= nums[rightIdx]) {
+		if (nums[lastIdx] < nums[leftIdx] && nums[lastIdx] > nums[rightIdx]) {
 			int tmp = nums[leftIdx];
 			nums[leftIdx] = nums[rightIdx];
 			nums[rightIdx] = tmp;
 			continue;
 		}
-
-		// 자리 바꾸기가 끝난 후
-		int tmp = nums[lastIdx];
-		nums[lastIdx] = nums[leftIdx];
-		nums[leftIdx] = tmp;
-
-		quickSort(nums, leftIdx + 1, lastIdx);
-		quickSort(nums, beginIdx, leftIdx - 1);
-
-		return;
 	}
+	// 자리 바꾸기가 끝난 후
+	int tmp = nums[lastIdx];
+	nums[lastIdx] = nums[leftIdx];
+	nums[leftIdx] = tmp;
+
+	quickSort(nums, leftIdx + 1, lastIdx);
+	quickSort(nums, beginIdx, leftIdx - 1);
+
+	return;
+	
 }
 
 int main() {
@@ -58,9 +59,8 @@ int main() {
 
 	quickSort(nums, 0, 6);
 
-	for (int i = 0; i < 6; i++) {
+	for (int i = 0; i < 7; i++) {
 		cout << nums[i] << ' ';
 	}
-	
-	
+
 }
