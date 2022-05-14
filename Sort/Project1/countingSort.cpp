@@ -20,7 +20,8 @@ void countingSort(int nums[], int length, int size) {
 
 	// stable 하게 하기 위해서 역순으로 해줍니다.
 	for (int i = length - 1; i >= 0; i--) {
-		SortedArr[i] = acc_count[nums[i]]--;
+		int idx = acc_count[nums[i]]--;
+		SortedArr[idx] = nums[i];
 	}
 
 	// 정리된 arr를 옮겨줍니다.
